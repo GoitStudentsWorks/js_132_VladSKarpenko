@@ -3,7 +3,8 @@
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  padding: 3px 12px 3px 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .header-bar {
@@ -50,7 +51,7 @@
   .header-container {
     margin: 0 auto;
     width: 100%;
-    padding: 7px 32px 7px 32px;
+    padding: 7px 64px 7px 64px;
   }
 
   .header-bar {
@@ -79,6 +80,6 @@
   }
 
   .header-btn {
-    margin-left: 16px;
+    margin: 0;
   }
 }
