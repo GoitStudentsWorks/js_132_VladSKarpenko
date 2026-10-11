@@ -30,10 +30,24 @@
   }
 }
 .footer-nav-item {
+  transition: 300ms ease-out;
+  transition-property: opacity;
+}
+.footer-nav-item:hover,
+.footer-nav-link:focus {
+  opacity: 0.5;
 }
 .footer-nav-link {
   font-weight: 500;
+
+  transition: 300ms ease-out;
+  transition-property: opacity;
 }
+
+.footer-nav-link:active {
+  opacity: 0.7;
+}
+
 .footer-bottom {
   margin-top: 32px;
   display: flex;
