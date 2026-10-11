@@ -1,6 +1,3 @@
-.feedbacks-section {
-}
-
 .feedbacks-container {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -33,13 +30,13 @@
 
 .feedbacks-stars-list {
   display: flex;
+  gap: 3px;
   margin-bottom: 26px;
 }
 
-.feedbacks-stars-item {
+.feedbacks-star {
   width: 24px;
   height: 24px;
-  fill: #000000;
 }
 
 .feedbacks-text {
