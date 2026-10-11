@@ -1,11 +1,11 @@
 {
-  "name": "first-team-experiance",
+  "name": "first-team-experience",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/first-team-experiance/",
+    "build": "vite build --base=/first-team-experience/",
     "preview": "vite preview"
   },
   "devDependencies": {
