@@ -32,8 +32,10 @@
     width: 450px;
   }
 }
-.benefits-list {
+.benefits-wrapper {
   margin-bottom: 32px;
+}
+.benefits-list {
 }
 .benefits-item {
   display: flex;
