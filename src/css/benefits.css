@@ -14,7 +14,6 @@
   .benefits-reverse {
     flex-direction: row-reverse;
     gap: 80px;
-    align-items: center;
   }
 }
 .benefits-title {
