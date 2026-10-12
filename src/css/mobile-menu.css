@@ -28,14 +28,14 @@
   max-width: 375px;
   height: 100%;
   padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto; /* Обнулено зайві вертикальні марджини контейнера */
 }
 
 .mobile-menu-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 0;
   margin-bottom: 16px;
 }
 
@@ -103,6 +103,7 @@
 .mobile-menu-nav {
   display: flex;
   justify-content: center;
+  margin: 0; /* Прибрано зайвий margin-top з навігації */
 }
 
 .mobile-menu-nav-list {
@@ -110,6 +111,9 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .mobile-menu-nav-link {
@@ -117,6 +121,7 @@
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  text-decoration: none;
   transition: opacity 300ms ease-out;
 }
 
