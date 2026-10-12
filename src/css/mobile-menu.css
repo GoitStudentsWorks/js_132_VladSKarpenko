@@ -28,13 +28,12 @@
   max-width: 375px;
   height: 100%;
   padding: 20px;
-  margin: 0 auto; /* Обнулено зайві вертикальні марджини контейнера */
+  margin: 0 auto;
 }
 
 .mobile-menu-top {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-top: 0;
   margin-bottom: 16px;
 }
@@ -53,6 +52,7 @@
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-left: auto;
 }
 
 .mobile-menu-register-btn {
@@ -103,7 +103,7 @@
 .mobile-menu-nav {
   display: flex;
   justify-content: center;
-  margin: 0; /* Прибрано зайвий margin-top з навігації */
+  margin: 0;
 }
 
 .mobile-menu-nav-list {
